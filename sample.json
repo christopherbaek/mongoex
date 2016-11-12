@@ -1,121 +1,111 @@
 {
-  "product":
-{
-  "item":
-{
-  "tcin":"13860428",
-  "dpci":"058-34-0436",
-  "upc":"025192110306",
-  "product_description":
-  {
-    "title":"The Big Lebowski (Blu-ray)",
-    "long_description":"The plot of this Raymond Chandler-esque comedy crime caper from the Coen Brothers (Joel Coen and Ethan Coen) pivots around a case of mistaken identity complicated by extortion, double-crosses, deception, embezzlement, sex, pot, and gallons of White Russians (made with fresh cream, please). In 1991, unemployed '60s refugee Jeff \"The Dude\" Lebowski (Jeff Bridges) grooves into his laid-back Los Angeles lifestyle. One of the laziest men in LA, he enjoys hanging with his bowling buddies, pompous security-store owner Walter Sobchak (John Goodman) and mild-mannered ex-surfer Donny (Steve Buscemi). However, the Dude's life takes an alternate route the afternoon two goons break into his threadbare Venice, California, bungalow, rough him up, and ****** on his living room rug. Why? Because Jackie Treehorn (Ben Gazzara) is owed money by the wife of a certain Jeff Lebowski. However, the goons grabbed the wrong Jeff Lebowski. With the right info, they would have invaded the home of philanthropic Pasadena millionaire Jeffrey Lebowski (David Huddleston). The Dude looks up his wealthy namesake, manages to get a replacement for his rug, and meets the millionaire's sexy young wife Bunny (Tara Reid). Later, Jeffrey (\"The Big\") Lebowski calls in the Dude to deliver a $1 million ransom for the return of his kidnapped wife. Fine -- except that Walter intrudes and botches the ransom drop. As events unravel, the Dude gets caught up in the schemes of Lebowski's daughter, ****** artist Maude (Julianne Moore), encounters both cops and bad guys, and drifts through an elaborate bowling fantasy sequence titled <I>Gutterballs</I>. The soundtrack includes Bob Dylan, Yma Sumac, Moondog, Captain Beefheart, and the Sons of the Pioneers. ~ Bhob Stewart, Rovi",
-    "bullet_description":["<B>Movie Genre:</B> Comedy","<B>Software Format:</B> Blu-ray","<B>Movie Category:</B> Feature, Feature, Feature","<B>Movie Picture Format:</B> widescreen","<B>Movie Studio:</B> Universal Studios","<B>Movie MPAA Rating:</B> r","<B>Language:</B> english, french","<B>Subtitle Language:</B> spanish, french"]},
-  "buy_url":"http://www.target.com/p/the-big-lebowski-blu-ray/-/A-13860428",
-  "enrichment":
-  {
-    "images":
-    [
-      {
-        "base_url":"http://target.scene7.com/is/image/Target/",
-        "primary":"13860428"
-      }
-    ]
-  },
-  "return_method":"This item can be returned to any Target store or Target.com.",
-  "handling":{"import_designation_description":"Made in the USA or Imported"
-  },
-  "recall_compliance":
-  {
-    "is_product_recalled":"false"
-  },
-  "tax_category":
-  {
-    "tax_class":"G",
-    "tax_code_id":99999,
-    "tax_code":"99999"
-  },
-  "return_policies":
-  {
-    "user":"Regular Guest",
-    "policyDays":"30",
-    "guestMessage":"This item must be returned within 30 days of the ship date. See return policy for details."
-  },
-  "display_option":
-  {
-    "is_size_chart":"false",
-    "is_warranty":"false"
-  },
-  "fulfillment":
-  {
-    "is_po_box_prohibited":"true",
-    "po_box_prohibited_message": "We regret that this item cannot be shipped to PO Boxes."
-  },
-  "package_dimensions":
-  {
-    "weight":"0.18",
-    "weight_unit_of_measure":"POUND",
-    "width":"5.33",
-    "depth":"6.65",
-    "height":"0.46"
-  },
-  "environmental_segmentation":
-  {
-    "is_lead_disclosure":"false"
-  },
-  "manufacturer":
-  {
-
-  },
-  "product_classification":
-  {
-    "product_type":"542",
-    "product_type_name":"ELECTRONICS",
-    "item_type_name":"Movies"
-  },
-  "product_brand":
-  {
-    "manufacturer_brand":"Universal Home Video"
-  },
-  "item_state":"READY_FOR_LAUNCH",
-  "specifications":[],
-  "mpaa_rating":
-  {
-    "url":"http://Img1.targetimg1.com/sites/html/TargetOnline/help/common/Movie_R_Rating.html",
-    "image":"http://Img1.targetimg1.com/wcsstore/TargetSAS/images/109776_R.jpg",
-    "description":"Profanity, Violence, Sexual Situations, Adult Humor, Substance Abuse",
-    "rating":"r"
-  },
-  "attributes":
-  {
-    "gift_wrapable":"N",
-    "has_prop65":"N",
-    "is_hazmat":"N",
-    "manufacturing_brand":"Universal Home Video",
-    "max_order_qty":10,
-    "media_format":"Blu-ray",
-    "merch_class":"MOVIES",
-    "merch_subclass":34,
-    "return_method":"This item can be returned to any Target store or Target.com."
-  },
-  "country_of_origin":"US",
-  "relationship_type_code":"Title Authority Child",
-  "subscription_eligible":"false"
-},
-  "available_to_promise_network":
-  {
-    "product_id":"13860428",
-    "id_type":"TCIN",
-    "available_to_promise_quantity":266.0,
-    "street_date":"2011-11-15T00:00:00.000Z",
-    "availability":"AVAILABLE",
-    "online_available_to_promise_quantity":266.0,
-    "stores_available_to_promise_quantity":0.0,
-    "availability_status":"IN_STOCK",
-    "multichannel_options":
-    [
-      "HOLD"
-    ]
-  }
-}
+    "product": {
+        "available_to_promise_network": {
+            "availability": "AVAILABLE",
+            "availability_status": "IN_STOCK",
+            "available_to_promise_quantity": 266.0,
+            "id_type": "TCIN",
+            "multichannel_options": [
+                "HOLD"
+            ],
+            "online_available_to_promise_quantity": 266.0,
+            "product_id": "13860428",
+            "stores_available_to_promise_quantity": 0.0,
+            "street_date": "2011-11-15T00:00:00.000Z"
+        },
+        "item": {
+            "attributes": {
+                "gift_wrapable": "N",
+                "has_prop65": "N",
+                "is_hazmat": "N",
+                "manufacturing_brand": "Universal Home Video",
+                "max_order_qty": 10,
+                "media_format": "Blu-ray",
+                "merch_class": "MOVIES",
+                "merch_subclass": 34,
+                "return_method": "This item can be returned to any Target store or Target.com."
+            },
+            "buy_url": "http://www.target.com/p/the-big-lebowski-blu-ray/-/A-13860428",
+            "country_of_origin": "US",
+            "display_option": {
+                "is_size_chart": "false",
+                "is_warranty": "false"
+            },
+            "dpci": "058-34-0436",
+            "enrichment": {
+                "images": [
+                    {
+                        "base_url": "http://target.scene7.com/is/image/Target/",
+                        "primary": "13860428"
+                    }
+                ]
+            },
+            "environmental_segmentation": {
+                "is_lead_disclosure": "false"
+            },
+            "fulfillment": {
+                "is_po_box_prohibited": "true",
+                "po_box_prohibited_message": "We regret that this item cannot be shipped to PO Boxes."
+            },
+            "handling": {
+                "import_designation_description": "Made in the USA or Imported"
+            },
+            "item_state": "READY_FOR_LAUNCH",
+            "manufacturer": {},
+            "mpaa_rating": {
+                "description": "Profanity, Violence, Sexual Situations, Adult Humor, Substance Abuse",
+                "image": "http://Img1.targetimg1.com/wcsstore/TargetSAS/images/109776_R.jpg",
+                "rating": "r",
+                "url": "http://Img1.targetimg1.com/sites/html/TargetOnline/help/common/Movie_R_Rating.html"
+            },
+            "package_dimensions": {
+                "depth": "6.65",
+                "height": "0.46",
+                "weight": "0.18",
+                "weight_unit_of_measure": "POUND",
+                "width": "5.33"
+            },
+            "product_brand": {
+                "manufacturer_brand": "Universal Home Video"
+            },
+            "product_classification": {
+                "item_type_name": "Movies",
+                "product_type": "542",
+                "product_type_name": "ELECTRONICS"
+            },
+            "product_description": {
+                "bullet_description": [
+                    "<B>Movie Genre:</B> Comedy",
+                    "<B>Software Format:</B> Blu-ray",
+                    "<B>Movie Category:</B> Feature, Feature, Feature",
+                    "<B>Movie Picture Format:</B> widescreen",
+                    "<B>Movie Studio:</B> Universal Studios",
+                    "<B>Movie MPAA Rating:</B> r",
+                    "<B>Language:</B> english, french",
+                    "<B>Subtitle Language:</B> spanish, french"
+                ],
+                "long_description": "The plot of this Raymond Chandler-esque comedy crime caper from the Coen Brothers (Joel Coen and Ethan Coen) pivots around a case of mistaken identity complicated by extortion, double-crosses, deception, embezzlement, sex, pot, and gallons of White Russians (made with fresh cream, please). In 1991, unemployed '60s refugee Jeff \"The Dude\" Lebowski (Jeff Bridges) grooves into his laid-back Los Angeles lifestyle. One of the laziest men in LA, he enjoys hanging with his bowling buddies, pompous security-store owner Walter Sobchak (John Goodman) and mild-mannered ex-surfer Donny (Steve Buscemi). However, the Dude's life takes an alternate route the afternoon two goons break into his threadbare Venice, California, bungalow, rough him up, and ****** on his living room rug. Why? Because Jackie Treehorn (Ben Gazzara) is owed money by the wife of a certain Jeff Lebowski. However, the goons grabbed the wrong Jeff Lebowski. With the right info, they would have invaded the home of philanthropic Pasadena millionaire Jeffrey Lebowski (David Huddleston). The Dude looks up his wealthy namesake, manages to get a replacement for his rug, and meets the millionaire's sexy young wife Bunny (Tara Reid). Later, Jeffrey (\"The Big\") Lebowski calls in the Dude to deliver a $1 million ransom for the return of his kidnapped wife. Fine -- except that Walter intrudes and botches the ransom drop. As events unravel, the Dude gets caught up in the schemes of Lebowski's daughter, ****** artist Maude (Julianne Moore), encounters both cops and bad guys, and drifts through an elaborate bowling fantasy sequence titled <I>Gutterballs</I>. The soundtrack includes Bob Dylan, Yma Sumac, Moondog, Captain Beefheart, and the Sons of the Pioneers. ~ Bhob Stewart, Rovi",
+                "title": "The Big Lebowski (Blu-ray)"
+            },
+            "recall_compliance": {
+                "is_product_recalled": "false"
+            },
+            "relationship_type_code": "Title Authority Child",
+            "return_method": "This item can be returned to any Target store or Target.com.",
+            "return_policies": {
+                "guestMessage": "This item must be returned within 30 days of the ship date. See return policy for details.",
+                "policyDays": "30",
+                "user": "Regular Guest"
+            },
+            "specifications": [],
+            "subscription_eligible": "false",
+            "tax_category": {
+                "tax_class": "G",
+                "tax_code": "99999",
+                "tax_code_id": 99999
+            },
+            "tcin": "13860428",
+            "upc": "025192110306"
+        }
+    }
 }
