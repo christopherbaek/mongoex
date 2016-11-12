@@ -49,13 +49,14 @@ def get_ascii_products(db):
 
 def get_one_product(db):
     #db.products.find(ObjectId('5826aa1df1c545b0740a7205'))
-    num = db.products.find({"is_po_box_prohibited": "true"}).count()
-    #
-    obj = db.products.find({"_id": ObjectId("5826aa1df1c545b0740a7205")})
-    stuff = list(db.products.find({"_id": ObjectId("5826aa1df1c545b0740a7205")}))
-    #
-    print(stuff, num)
+    
+    # num = db.products.find({"is_po_box_prohibited": "true"}).count()
+    # obj = db.products.find({"_id": ObjectId("5826aa1df1c545b0740a7205")})
+    # stuff = list(db.products.find({"_id": ObjectId("5826aa1df1c545b0740a7205")}))
+    # print(stuff, num)
 
+    for product in db.products.find({"product.item.fulfillment.is_po_box_prohibited": True}):
+        print product
 
 def delete_products(db):
     db.products.drop()
