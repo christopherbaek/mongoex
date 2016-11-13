@@ -58,11 +58,10 @@ def get_ascii_products(db):
 def get_product_id(db):
     # list comprehension
     #products = [p for p in db.products.find({"product.available_to_promise_network.product_id": 13860428})]
-    product_id = [p for p in db.products.find({"product.item.tcin": "13860428"})]
-    for p in db.products.find({"product.item.tcin": "13860428"}):
+    product_id = [p for p in db.products.find({"product.available_to_promise_network.product_id": "13860428"})]
+    for p in db.products.find({"product.available_to_promise_network.product_id": "13860428"}):
         print p
     return product_id
-
 
 if __name__ == "__main__":
     db = get_db()
