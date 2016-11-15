@@ -23,12 +23,12 @@ def load():
 
 
 def print_all():
-	for product_data in retrieve_all_products():
-		print product_data
+    for product_data in retrieve_all_products():
+        print product_data
 
 
 def drop():
-	drop_products_collection();
+    drop_products_collection();
 
 
 def main(argv):
@@ -42,10 +42,11 @@ def main(argv):
     elif args.COMMAND == 'PRINT_ALL':
         print_all()
     elif args.COMMAND == 'DROP':
-    	drop()
+        drop()
     else:
         print 'Unknown command:', args.COMMAND
 
 
 if __name__ == '__main__':
     main(sys.argv[1:])
+
