@@ -1,7 +1,7 @@
 from bson import json_util
 from flask import Flask, Response, render_template
 
-from db import retrieve_all_products, retrieve_product_by_id
+from service import retrieve_all_products, retrieve_product_by_id
 
 
 app = Flask(__name__)
