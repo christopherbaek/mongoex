@@ -10,6 +10,20 @@ def retrieve_all_products():
     return products
 
 
+def retrieve_all_products_as_dict():
+    products = retrieve_all_products()
+
+    # product_dict = {}
+    # 
+    # for p in products:
+    #     product_id = p['product']['available_to_promise_network']['product_id']
+    #     product_dict[product_id] = p
+    #
+    # return product_dict
+
+    return {p['product']['available_to_promise_network']['product_id']:p for p in products}
+
+
 def retrieve_product_by_id(id):
     product = db.retrieve_product_by_id(id)
 
