@@ -1,7 +1,7 @@
 from bson import json_util
-from flask import Flask, Response, render_template
+from flask import Flask, Response, render_template, jsonify
 
-from service import retrieve_all_products, retrieve_product_by_id
+from service import retrieve_all_products, retrieve_product_by_id, retrieve_item_by_product_id
 
 
 app = Flask(__name__)
@@ -36,6 +36,12 @@ def api_product(product_id):
         json_util.dumps(product),
         mimetype='application/json'
     )
+
+
+@app.route('/api/v1/item/<product_id>')
+def api_item(product_id):
+    item = retrieve_item_by_product_id(product_id)
+    return jsonify(**item)
 
 
 if __name__ == '__main__':

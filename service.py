@@ -31,3 +31,7 @@ def retrieve_product_by_id(id):
 
     return product
 
+
+def retrieve_item_by_product_id(id):
+    product = retrieve_product_by_id(id)
+    return product['product']['item']
