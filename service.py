@@ -32,6 +32,19 @@ def retrieve_product_by_id(id):
     return product
 
 
+def retrieve_simplified_products():
+    products = retrieve_all_products()
+    return [extract_id_and_title(p) for p in products]
+
+
+def extract_id_and_title(product):
+    """
+    Given product data, returns a dictionary with only the id and title
+    """
+    id = product['product']['available_to_promise_network']['product_id']
+    title = product['product']['item']['product_description']['title']
+    return {'id': id, 'title': title}
+
 def retrieve_item_by_product_id(id):
     product = retrieve_product_by_id(id)
     return product['product']['item']
